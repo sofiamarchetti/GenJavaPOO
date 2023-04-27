@@ -1,64 +1,63 @@
 package POO;
 
 public class ClasseCliente {
-	
-	private String nomeCliente;
-	private String dataNascimento;
-	private String corFavorita;
-	private int idade;
-	private float altura;
-	
-	public ClasseCliente(String nomeCliente, String dataNascimento, String corFavorita, int idade, float altura) {
-		super();
-		this.nomeCliente = nomeCliente;
-		this.dataNascimento = dataNascimento;
-		this.corFavorita = corFavorita;
-		this.idade = idade;
-		this.altura = altura;
-	}
 
-	public String getNomeCliente() {
-		return nomeCliente;
-	}
+            private String nomeCliente;
+            private String dataNascimento;
+            private String corFavorita;
+            private int idade;
+            private double altura;
 
-	public void setNomeCliente(String nomeCliente) {
-		this.nomeCliente = nomeCliente;
-	}
+            public ClasseCliente(String nomeCliente, String dataNascimento, String corFavorita, int idade, double altura) {
+                super();
+                this.nomeCliente = nomeCliente;
+                this.dataNascimento = dataNascimento;
+                this.corFavorita = corFavorita;
+                this.idade = idade;
+                this.altura = altura;
+            }
 
-	public String getDataNascimento() {
-		return dataNascimento;
-	}
+            public String getNomeCliente() {
+                return nomeCliente;
+            }
 
-	public void setDataNascimento(String dataNascimento) {
-		this.dataNascimento = dataNascimento;
-	}
+            public void setNomeCliente(String nomeCliente) {
+                this.nomeCliente = nomeCliente;
+            }
 
-	public String getCorFavorita() {
-		return corFavorita;
-	}
+            public String getDataNascimento() {
+                return dataNascimento;
+            }
 
-	public void setCorFavorita(String corFavorita) {
-		this.corFavorita = corFavorita;
-	}
+            public void setDataNascimento(String dataNascimento) {
+                this.dataNascimento = dataNascimento;
+            }
 
-	public int getIdade() {
-		return idade;
-	}
+            public String getCorFavorita() {
+                return corFavorita;
+            }
 
-	public void setIdade(int idade) {
-		this.idade = idade;
-	}
+            public void setCorFavorita(String corFavorita) {
+                this.corFavorita = corFavorita;
+            }
 
-	public float getAltura() {
-		return altura;
-	}
+            public int getIdade() {
+                return idade;
+            }
 
-	public void setAltura(float altura) {
-		this.altura = altura;
-	}
-	
-	public void imprimirInfo() {
-		System.out.println("A/O "+nomeCliente+" nasceu no dia "+dataNascimento+", por isso tem "+idade+" anos de idade. Sua cor favorita é "
-	+corFavorita+" e tem "+altura+" de altura");
-	}	
-}
+            public void setIdade(int idade) {
+                this.idade = idade;
+            }
+
+            public double getAltura() {
+                return altura;
+            }
+
+            public void setAltura(double altura) {
+                this.altura = altura;
+            }
+
+            public void imprimirInfo() {
+
+            }
+        }
